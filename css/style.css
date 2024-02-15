@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#container{
+    width:80%;
+    margin: auto;
+    height: 100vh;
+    background-image:url(../img/bg.avif) ;
+    background-size: cover;
+}
+#container h2{
+    color:#a6c2c7;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 4rem;
+    letter-spacing: 10px;
+}
+.time, .date, .weekDays{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(49, 54, 60);
+    text-align: center;
+    padding: 2rem;       
+}
+.time{
+    padding-top: 6%;  
+}
+.timings, .day, .month, .year, .week{
+    text-align: center;
+    padding:1rem 1.5rem;
+    font-size: 20px;
+    border: 1px solid #000;
+    margin:10px;
+    background-color: #acd5d8;
+    border-radius: 7px; 
+}
+.timings input{
+    padding:20px 0;
+}
+.weekDays .week{
+    padding:0 10px;
+}
