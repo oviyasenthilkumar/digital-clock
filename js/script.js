@@ -64,7 +64,7 @@ function convertDates(dates){
 }
 
 function duplicateHours(hourDuplicate){
-    if(hourDuplicate > 12){
+    if(hourDuplicate > 11){
         return pm ="PM";
     }else{
         return am = "AM";
@@ -73,7 +73,7 @@ function duplicateHours(hourDuplicate){
 
 function updateClock(){
     let date = new Date();
-    let hourDuplicate = date.getHours;
+    let hourDuplicate = date.getHours();
     hourDuplicate = duplicateHours(hourDuplicate);
 
     let hrs = date.getHours();
